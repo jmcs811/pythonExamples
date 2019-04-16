@@ -6,6 +6,7 @@ with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
         splitLine = line.split(':')
         last_names.append(splitLine[1])
 
+# list comprehension 
 last_names = [name.upper() for name in last_names]
 
 for name in last_names:

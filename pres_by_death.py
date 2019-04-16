@@ -11,6 +11,7 @@ with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
         pol_party = splitLine[9]
         list_of_pres.append((first_name, last_name, date_birth, date_death, pol_party))
 
+# sorting list of tuples using lambda. tup[3] = date of death
 list_of_pres = sorted(list_of_pres, key=lambda tup:tup[3])
 
 for i in list_of_pres:

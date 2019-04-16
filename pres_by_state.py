@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 state_list = {}
 
+# read in data and add to dictionary
 with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
     for line in PRES:
         splitLine = line.split(':')
@@ -10,5 +11,6 @@ with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
         else:
             state_list[state] = 1
 
+# print the key-value pair
 for key, value in sorted(state_list.items()):
     print(f'{key:30s} {value}')

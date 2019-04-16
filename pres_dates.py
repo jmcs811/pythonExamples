@@ -7,7 +7,7 @@ name_query = input("Enter Last Name\n")
 with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
     for line in PRES:
         split_line = line.split(":")
-        # if last name field equals the query
+        # if last_name field equals the query
         # pull out the values and print them
         if split_line[1] == name_query:
             last_name = split_line[1]
