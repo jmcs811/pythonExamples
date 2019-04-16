@@ -2,7 +2,7 @@
 state_list = {}
 
 # read in data and add to dictionary
-with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
+with open('./DATA/presidents.txt') as PRES:
     for line in PRES:
         splitLine = line.split(':')
         state = splitLine[6]

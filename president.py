@@ -9,7 +9,7 @@ class President:
     # read in data from file, set the member vars accordingly
     # if none match i.e. > 45 || < 0 raise error
     def _get_data(self, number):
-        with open('/Users/jcasey/Downloads/presidents.txt') as data:
+        with open('./DATA/presidents.txt') as data:
             for line in data:
                 splitLine = line.split(':')
                 if int(splitLine[0]) == int(number):

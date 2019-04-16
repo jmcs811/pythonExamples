@@ -3,7 +3,7 @@
 #list comprehension
 # read in data from file
 # store as tuple in list
-list_of_names = [(line[2], line[1]) for line in (line.split(':') for line in open('/Users/jcasey/Downloads/presidents.txt'))]
+list_of_names = [(line[2], line[1]) for line in (line.split(':') for line in open('./DATA/presidents.txt'))]
  
  # use list comprehension 
  # to store upper forms of

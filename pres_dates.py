@@ -4,7 +4,7 @@
 name_query = input("Enter Last Name\n")
 
 # Read data into dictionary
-with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
+with open('./DATA/presidents.txt') as PRES:
     for line in PRES:
         split_line = line.split(":")
         # if last_name field equals the query

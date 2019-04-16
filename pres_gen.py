@@ -7,5 +7,5 @@ def presidentGen(file_name):
             splitLine = line.split(':')
             yield str(splitLine[2] + ' ' + splitLine[1]).upper()
 
-for president in presidentGen('/Users/jcasey/Downloads/presidents.txt'):
+for president in presidentGen('./DATA/presidents.txt'):
     print(president)

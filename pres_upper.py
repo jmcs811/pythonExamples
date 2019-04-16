@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 last_names = []
 
-with open('/Users/jcasey/Downloads/presidents.txt') as PRES:
+with open('./Data/presidents.txt') as PRES:
     for line in PRES:
         splitLine = line.split(':')
         last_names.append(splitLine[1])
