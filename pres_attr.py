@@ -6,7 +6,7 @@ class President():
         self.last = last
         self.party = party
  
-pres = President("Jorge", "Washingtino", "no part")
+pres = President("George", "Washingtino", "no part")
  
 # access the field using getattr
 # instead of pres.first
