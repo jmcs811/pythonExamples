@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from typing import List
-from multimethod import multimethod
+import multimethod
  
 class Seed: pass
 class Pig: pass
@@ -28,7 +28,6 @@ def sow(location, obj: Pig):
 def append_42(x :List[int]):
     x.append(42)
     return x
- 
  
 if __name__ == '__main__':
     sow('test', Seed())
