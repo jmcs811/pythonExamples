@@ -1,2 +1,2 @@
 # pythonExamples
-A collection of example programs I made while learning python 3.
+A collection of example programs I made during an Andvanced Python course.
